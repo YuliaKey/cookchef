@@ -1,7 +1,7 @@
 import './assets/styles/style.scss'
-import Content from './component/layout/Content';
-import Footer from './component/layout/Footer';
-import Header from './component/layout/Header';
+import Content from './pages/Homepage/Homepage';
+import Footer from './components/layout/Footer/Footer';
+import Header from './components/layout/Header/Header';
 import styles from './App.module.scss';
 
 function App() {

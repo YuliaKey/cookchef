@@ -1,5 +1,5 @@
-import Recipe from '../Recipe';
-import styles from './Content.module.scss';
+import Recipe from './components/Recipe';
+import styles from './Homepage.module.scss';
 import {data} from '../../data/recipes';
 import { useState } from 'react';
 
