@@ -12,7 +12,7 @@ export default function Recipe({title, img}) {
     return (
         <div onClick={handleLikeClick}className={styles.recipe}>
             <div className={styles.recipeImage}>
-                <img src={img} alt="Image Recette" />
+                <img src={img} alt="Recette" />
             </div>
             <div className={`${styles.recipeTitle} d-flex flex-column justify-content-center align-items-center`}>
                 <h3 className='mb-20'>{title}</h3>

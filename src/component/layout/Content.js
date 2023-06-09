@@ -8,8 +8,6 @@ export default function Content(){
     const recipes = data;
     const [filter, setFilter] = useState('');
 
-    console.log(filter);
-
     function handleInput(event) {
         setFilter(event.target.value.trim().toLowerCase());
     } 
